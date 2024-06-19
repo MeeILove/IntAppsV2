@@ -1,0 +1,19 @@
+{
+  "name": "intelligent-applications",
+  "version": "1.0.0",
+  "description": "Лэндинг на Vue.js для интеллектуальных приложений",
+  "main": "vue.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeeILove/IntAppsV2.git"
+  },
+  "author": "MeeILove",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeeILove/IntAppsV2/issues"
+  },
+  "homepage": "https://github.com/MeeILove/IntAppsV2#readme"
+}
