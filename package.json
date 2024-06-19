@@ -2,9 +2,12 @@
   "name": "intelligent-applications",
   "version": "1.0.0",
   "description": "Лэндинг на Vue.js для интеллектуальных приложений",
-  "main": "vue.config.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "deploy": "vue-cli-service build && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,24 @@
   "bugs": {
     "url": "https://github.com/MeeILove/IntAppsV2/issues"
   },
-  "homepage": "https://github.com/MeeILove/IntAppsV2#readme"
+  "homepage": "https://github.com/MeeILove/IntAppsV2#readme",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^3.3.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "gh-pages": "^6.1.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }

@@ -1,4 +1,3 @@
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production' ? 'IntAppsV2' : '/'
-  }
-  
+  publicPath: process.env.NODE_ENV === 'production' ? '/IntAppsV2/' : '/'
+}
